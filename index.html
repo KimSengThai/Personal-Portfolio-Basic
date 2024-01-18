@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Mr Engineer Portfolio Website </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+
+    <body>
+        <section class="profileSection" id="home">
+            <div class="profilePicture"><img src="./Images/Profile Photo.jpg" class="imageSize" alt="Profil photo"/></div>  
+            <div class="profileContainer">
+                <div class="text-container">
+                    <p class="profileText1">Hi there, my name is</p>    
+                    <h1 class="title">Kim Seng</h1>
+                    <p class="profileText2"> and I am a software engineer with a passion for web development.</p> 
+                </div>
+                <div class="btnFlex">
+                    <button class="btn" onclick="location.href = 'Multipages/resume.html'"> Resume </button>
+                    <button class="btn" onclick="location.href = '#contact'"> Contact </button>
+                </div>
+                <div class="socialContainerFlex">
+                    <div id="social-container"><img src="./Images/linkedin.png" alt="linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/kimseng-thai/'"></div> 
+                    <div id="social-container"><img src="./Images/github.png" alt="github profile" class="icon" onclick="location.href='https://github.com/Afterburn3'"></div>
+                </div>
+            </div>
+            <img src="Images/arrow.png" alt="" class="arrow" onclick="location.href='#projects'"/>             
+        </section>
+        
+        <header>
+            <nav id="nav-webpage">          
+                <ul class="navlist">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#aboutme">About Me</a></li>               
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav> 
+        </header>
+
+        <section id="projects">
+            <h2 class="title"> Portfolio </h2>
+            <div class="project-container">
+                <div class="project-container1">
+                    <div class="project-container1image"><img src="Images/ECommerTemplate.PNG" alt=""/></div>
+                    <div class="projectEccommerce"><h2>E-Commerce</h2></div>
+                    <div class="btnFlex">
+                        <button class="btn" onclick="location.href = 'https://github.com/Afterburn3'"> Github </button>
+                        <button class="btn" onclick="location.href = 'https://github.com/Afterburn3'"> Demo </button>
+                    </div>    
+                </div>
+                <div class="project-container1">
+                    <div class="project-container1image"><img src="Images/MemoryGame.PNG" alt=""/></div>
+                    <div class="projectEccommerce"><h2>Memory Game</h2></div>
+                    <div class="btnFlex">
+                        <button class="btn" onclick="location.href = 'https://github.com/Afterburn3/projectMemoryGame/tree/main'"> Github </button>
+                        <button class="btn" onclick="location.href = 'https://meek-paprenjak-fa7564.netlify.app/'"> Demo </button>
+                    </div>    
+                </div>
+                <div class="project-container1">
+                    <div class="project-container1image"><img src="Images/diamond-hotel-website-design.png" alt=""/></div>
+                    <div class="projectEccommerce"><h2>Service Website</h2></div>
+                    <div class="btnFlex">
+                        <button class="btn" onclick="location.href = 'https://github.com/Afterburn3'"> Github </button>
+                        <button class="btn" onclick="location.href = 'https://github.com/Afterburn3'"> Demo </button>
+                    </div>    
+                </div>
+            </div>            
+        </section>            
+        
+        <section id="aboutme">
+            <p class="section__text__p1">Hi again,</p>
+            <h2 class="title">About Me</h2>
+            <div class="containterAboutmeIntro">
+                <div class="containterAboutmeIntro2"><img src="Images/aboutmeworking.jpg" alt=""></div>
+                <div class="containterAboutmeIntro3">
+                    <div class="containterAboutmeEducation">
+                        <div class="containterAboutmeEducation2">
+                            <img class="skills2" src="Images/experience.png" alt=""/>
+                            <h4>Work Experience</h4>
+                            <p>3+ years Site Engineer</p>
+                        </div>
+                        <div class="containterAboutmeEducation2">
+                            <img class="skills2" src="Images/education.png" alt=""/>
+                            <h4>Education</h4>
+                            <p>B.Civil (hons) at University of Technology Sydney</p>                            
+                        </div>    
+                    </div>
+                    <div><p>I'm a software engineer living in Sydney, interested in how people and software can work together to make life better. 
+                    I previoulsy worked in the Construction Industry as a Civil Engineer, where I solve problems and managing projects to help the job site run smoothly.
+                    Outside of work, I love mixed martial art. I spend my time training Brazilian Jiu Jitsu, analysing pro fights and competiting in local tournaments. 
+                    If you want to chat, feel free to reach out <a href="#contact">here</a>.</div>
+                </div> 
+            </div>
+            <div class="containerGridAboutMe">
+                            <div class="aboutmeContainer">  
+                                <h3 class="title"><img class="UnitqueSkills" src="Images/skillslogo.png"/>Frontend Skills<img class="UnitqueSkills" src="Images/frontend.png"/></h3>
+                                <div class="aboutmeSkillsContainer">
+                                    <div class="skills1">
+                                        <img src="Images/HTML.png"/>
+                                        <h4>HTML</h4>
+                                    </div>
+                                    <div class="skills1">
+                                        <img src="Images/CSS.png"/>
+                                        <h4>CSS</h4>
+                                    </div>                                    
+                                    <div class="skills1">
+                                        <img src="Images/bootstrap.png"/>
+                                        <h4>Bootstrap</h4>
+                                    </div>
+                                    <div class="skills1 javascript">
+                                        <img src="Images/JavaScript.jpg"/>
+                                        <h4>JavaScript</h4>
+                                    </div>
+                                    <div class="skills1">
+                                        <img src="Images/jQeuery.png"/>
+                                        <h4>jQuery</h4>
+                                    </div>
+                                    </div>
+                                </div>                            <div class="aboutmeContainer">                                
+                                <h3 class="title"><img class="UnitqueSkills" src="Images/backend.png"/>Backend Skills<img class="UnitqueSkills" src="Images/skillslogo.png"/></h3>
+                                <div class="aboutmeSkillsContainer">
+                                    <div class="skills1">
+                                        <img src="Images/nodejs.png"/>
+                                        <h4>Node.js</h4>
+                                    </div>
+                                </div>
+                            </div> 
+                            </div>
+ 
+                        </div>      
+        </section>
+
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h2 class="title">Contact Me</h2>
+            <div class="lazyblock">
+                <div class="containterAboutmeEducation2">
+                    <div><a id="social-container" href="mailto:kimseng.thai@hotmail.com"><img src="./Images/email.png" alt="linkedin profile"></a></div>
+                        <form>
+                        <label for="fname">Full Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="ma_email">Email</label>
+                        <input type="text" name="ma_email" id="ma_email">
+                        <label for="ma_phone">Mobile</label><br>
+                        <input type="text" name="ma_phone" id="ma_phone">
+                        <label for="ma_interest">I'm interested in</label>
+                        <input type="text" name="ma_interest" id="ma_interest">
+                        <br><br><br>
+                        <input class="btn" type="submit" value="Submit">
+                        <input class="btn" type="reset" value="Reset">
+                        </form> 
+                </div>
+            </div>
+
+            <footer>
+                <p>Author: Kim Seng Thai. All Rights Reserved.</p>
+            </footer> 
+        </section>
+    
+    </body>
+
+</html>
